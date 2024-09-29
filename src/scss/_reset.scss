@@ -46,3 +46,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1,h1,h3|h4,h5,h6{
+	margin-top: 0px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+strong{
+	font-weight: bold;
+}
+.flex{
+	display: flex;
+}
+.container{
+	max-width: 1440px;
+	margin: auto;
+}
+
+a{
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	text-decoration: none;
+}
